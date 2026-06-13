@@ -4,17 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>MAHENORA — Mitra IoT & Private Cloud No.1 di Indonesia</title>
-<meta name="description" content="MAHENORA: Mitra IoT terpercaya. Merancang perangkat IoT berbasis Arduino & Raspberry Pi, aplikasi efisiensi staf, dan sistem self-hosted. Data di server Anda, tanpa langganan. Konsultasi gratis!">
-<meta name="keywords" content="IoT Indonesia, Arduino, Raspberry Pi, private cloud, self-hosted, akses kontrol RFID, smart farming, monitoring real-time, IoT development, MAHENORA">
+<meta name="description" content="MAHENORA mitra IoT terpercaya di Indonesia — jasa perancangan perangkat Arduino & Raspberry Pi, sistem self-hosted, dan aplikasi efisiensi staf. Data 100% milik Anda, tanpa langganan. Konsultasi gratis sekarang!">
+<meta name="keywords" content="IoT Indonesia, jasa IoT, Arduino, Raspberry Pi, private cloud, self-hosted, akses kontrol RFID, smart farming, monitoring real-time, IoT development, MAHENORA, sistem automasi, pembayaran QRIS, GPS tracker">
 <meta name="robots" content="index, follow">
-<meta name="author" content="MAHENORA - halo@mahenora.my.id">
+<meta name="author" content="MAHENORA - mahendraanggi71@gmail.com">
+<meta name="theme-color" content="#06192E">
 <link rel="canonical" href="https://mahenora.my.id/">
+
+<!-- Preconnect & DNS-Prefetch untuk performa -->
+<link rel="dns-prefetch" href="//wa.me">
+<link rel="preconnect" href="https://wa.me">
+
+<!-- Preload critical images -->
+<link rel="preload" as="image" href="assets/hero-bg.jpg">
+<link rel="preload" as="image" href="assets/hero-main.jpg" fetchpriority="high">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mahenora.my.id/">
 <meta property="og:title" content="MAHENORA — Mitra IoT & Private Cloud No.1 di Indonesia">
-<meta property="og:description" content="Merancang perangkat IoT berbasis Arduino & Raspberry Pi serta aplikasi efisiensi staf. Data 100% milik Anda, tanpa langganan.">
+<meta property="og:description" content="Jasa perancangan perangkat IoT berbasis Arduino & Raspberry Pi, aplikasi efisiensi staf, dan sistem self-hosted. Data 100% milik Anda, tanpa langganan. Konsultasi gratis!">
 <meta property="og:image" content="https://mahenora.my.id/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -25,7 +34,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MAHENORA — Mitra IoT & Private Cloud">
-<meta name="twitter:description" content="Merancang perangkat IoT berbasis Arduino & Raspberry Pi. Data 100% milik Anda, tanpa langganan.">
+<meta name="twitter:description" content="Jasa IoT terpercaya — Arduino, Raspberry Pi, sistem self-hosted. Data 100% milik Anda, tanpa langganan bulanan. Konsultasi gratis.">
 <meta name="twitter:image" content="https://mahenora.my.id/assets/og-image.jpg">
 <meta name="twitter:image:alt" content="MAHENORA — Mitra IoT & Private Cloud">
 
@@ -35,52 +44,100 @@
 
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "MAHENORA",
-  "alternateName": "MAHENORA IoT & Private Cloud",
-  "url": "https://mahenora.my.id",
-  "logo": "https://mahenora.my.id/assets/og-image.jpg",
-  "image": "https://mahenora.my.id/assets/og-image.jpg",
-  "description": "Mitra IoT & Private Cloud — merancang perangkat IoT berbasis Arduino & Raspberry Pi serta aplikasi efisiensi staf. Solusi self-hosted, data di server Anda sendiri.",
-  "email": "mahendraanggi71@gmail.com",
-  "areaServed": "Indonesia",
-  "foundingDate": "2025",
-  "contactPoint": {
-    "@type": "ContactPoint",
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://mahenora.my.id/#website",
+    "url": "https://mahenora.my.id",
+    "name": "MAHENORA",
+    "alternateName": "MAHENORA IoT & Private Cloud",
+    "description": "Mitra IoT terpercaya di Indonesia — jasa perancangan perangkat Arduino & Raspberry Pi, sistem self-hosted, dan aplikasi efisiensi staf.",
+    "inLanguage": "id",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://mahenora.my.id/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://mahenora.my.id/#organization",
+    "name": "MAHENORA",
+    "alternateName": "MAHENORA IoT & Private Cloud",
+    "url": "https://mahenora.my.id",
+    "logo": "https://mahenora.my.id/assets/og-image.jpg",
+    "image": "https://mahenora.my.id/assets/og-image.jpg",
+    "description": "Mitra IoT & Private Cloud — merancang perangkat IoT berbasis Arduino & Raspberry Pi serta aplikasi efisiensi staf. Solusi self-hosted, data di server Anda sendiri.",
+    "email": "mahendraanggi71@gmail.com",
+    "areaServed": "Indonesia",
+    "foundingDate": "2025",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-838-4517-4428",
+      "contactType": "customer support",
+      "whatsApp": "https://wa.me/6283845174428",
+      "availableLanguage": ["Indonesian", "English"]
+    },
+    "sameAs": [
+      "https://mahenora.my.id"
+    ],
+    "offers": {
+      "@type": "AggregateOffer",
+      "description": "Jasa perancangan IoT, private cloud, dan aplikasi efisiensi staf",
+      "offerCount": "6",
+      "areaServed": "Indonesia"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Layanan MAHENORA",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Access Control RFID & PIN" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Smart Farming & Penyiraman Otomatis" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laporan & Notifikasi Otomatis" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automasi Laundry & Pembayaran QRIS" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GPS Tracking Enterprise" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pemantau EKG Jantung Real-Time" } }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://mahenora.my.id/#business",
+    "parentOrganization": { "@id": "https://mahenora.my.id/#organization" },
+    "name": "MAHENORA",
+    "description": "Jasa perancangan perangkat IoT, private cloud, dan aplikasi efisiensi staf di Indonesia.",
+    "url": "https://mahenora.my.id",
     "telephone": "+62-838-4517-4428",
-    "contactType": "customer support",
-    "whatsApp": "https://wa.me/6283845174428",
-    "availableLanguage": ["Indonesian", "English"]
+    "email": "mahendraanggi71@gmail.com",
+    "areaServed": "Indonesia",
+    "priceRange": "Rp",
+    "currenciesAccepted": "IDR",
+    "paymentAccepted": ["Bank Transfer", "QRIS"],
+    "contactPoint": { "@id": "https://mahenora.my.id/#organization" }
   },
-  "sameAs": [
-    "https://mahenora.my.id"
-  ],
-  "offers": {
-    "@type": "AggregateOffer",
-    "description": "Jasa perancangan IoT, private cloud, dan aplikasi efisiensi staf",
-    "offerCount": "6",
-    "areaServed": "Indonesia"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Layanan MAHENORA",
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://mahenora.my.id/#breadcrumb",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Access Control RFID & PIN" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Smart Farming & Penyiraman Otomatis" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laporan & Notifikasi Otomatis" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automasi Laundry & Pembayaran QRIS" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GPS Tracking Enterprise" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pemantau EKG Jantung Real-Time" } }
+      { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://mahenora.my.id" },
+      { "@type": "ListItem", "position": 2, "name": "Portofolio", "item": "https://mahenora.my.id/#portofolio" },
+      { "@type": "ListItem", "position": 3, "name": "Kontak", "item": "https://mahenora.my.id/#kontak" }
     ]
   }
-}
+]
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
 
 <style>
 :root {
@@ -1451,7 +1508,7 @@ footer {
     </div>
     <div class="hero-right reveal delay-2">
       <div class="hero-img-main">
-        <img src="assets/hero-main.jpg" width="1200" height="800" alt="Perangkat IoT MAHENORA — sistem monitoring dan kontrol real-time berbasis Arduino dan Raspberry Pi">
+        <img src="assets/hero-main.jpg" width="1200" height="800" fetchpriority="high" alt="Perangkat IoT MAHENORA — sistem monitoring dan kontrol real-time berbasis Arduino dan Raspberry Pi">
         <div class="hero-img-overlay"></div>
         <div class="hero-pill">
           <span class="status-dot"></span>
